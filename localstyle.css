@@ -48,21 +48,38 @@ button:hover {
 
 .image{
         margin-top: 50px;
-       margin-left: 300px;
+       margin-left: 70px;
         display: block; 
         float: right; /* Align to the right */
-        width: 500px; 
-        height: 500px; 
+        width:700px; 
+        height:700px; 
     
 }
 .Body{
     display: flex;
 }
 .text{
-    margin-top: 300px;
-    margin-left: 300px;
-    padding-right:100px;
+    margin-top: 200px;
+    margin-left: 100px;
+    padding-right:50px;
     font: weight 900px;;
-    font-size: xx-large;
+    font-size: 02cm;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    border-top: 1px solid #555;
+    background-color: rgb(158, 111, 203);
+}
+
+.hidden {
+    display: none;
+}
+
+#options button {
+    display: block;
+    margin: 10px 0;
 }
