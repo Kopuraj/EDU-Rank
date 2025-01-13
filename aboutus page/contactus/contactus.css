@@ -1,0 +1,92 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+  }
+  body{
+    font-size: 30px;
+    overflow-x: hidden;
+    color: rgb(185, 12, 229);
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(233, 152, 244);
+  }
+  header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0,0,0,0.3)),url(../image/contact.jpg);
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .clearfix:after{
+    content: " ";
+    visibility: ;
+    display: block;
+    height: 9px;
+    clear: both;
+  }
+  .row{
+    max-width: 1180px;
+    margin:0 auto;
+  }
+  
+  
+  
+  
+  
+  .table{
+    margin-left:130px;
+  }
+  .search{
+    margin-left: 60px;;
+    margin-top:80px;
+    margin-bottom: 10px;
+    color: black;
+    text-shadow:  #fff 0px 0px 1px,   #fff 0px 0px 1px,   #fff 0px 0px 1px;    
+  }
+  .tblheading{
+    color: black;
+    font-size: 1.3rem;
+    text-align: left;
+    padding-bottom: 0.3rem;
+    padding-top: 0.3rem;
+  }
+  .tbldata{
+    width:500px;
+    height: 30px;
+  }
+  .tbldata1{
+    width:500px;
+    height: 70px;
+  }
+  .submit{
+    width:80px; 
+    height: 30px;  
+  }
+  .submit:hover{
+    background-color:orange;
+    color:white;
+    font-size: 1rem;
+  }
+  .main-content-header{
+    border-top: 2px solid #fff;
+  }
+  
+  button {
+    background-color:orange;
+    color:white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 90%;
+  }
+  
+  button:hover {
+    background-color:rgb(199, 157, 80);
+  }
+  
+  .dash{
+    background-color:linear-gradient(rgba(230, 21, 233, 0.6),rgba(0,0,0,0.6)),url(../image/write.jpg);
+    align-items:center;
+  }
+  
