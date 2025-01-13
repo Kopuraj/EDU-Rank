@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: rgb(158, 104, 207);
+
+    
+  }
+  
+  
+  .options {
+    margin-top: 20px;
+  }
+  .option {
+    display:block;
+    width: 15%;
+    margin: 10px;
+    padding: 20px;
+    background-color:orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  .option:hover {
+    background-color: #490de2;
+  }
+  .btn{
+    
+    display:inline;
+    width: 15%;
+    margin: 30px;
+    padding: 30px;
+    align-items: center;
+    background-color:rgb(25, 74, 221);
+    color: rgb(207, 237, 11);
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
