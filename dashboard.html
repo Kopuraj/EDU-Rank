@@ -8,6 +8,7 @@ Copy code
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GUI project</title>
     <link rel="stylesheet" href="localstyle.css">
+
 </head>
 <body>
     <header>
@@ -15,19 +16,50 @@ Copy code
             <h1 class="logo">EDU-Rank</h1>
             <div>
             
-                <button >Home</button>
-                <button>Log in</button>
-                <button>Sign up</button>
+                <button id="about">About</button>
+                <button id="contact">Contact</button>
+                <button id="adlogin">Admin Login</button>
+
             </div>
            
         </div>
        
     </header>
+    
     <div class="Body">
+        <div  class="sub-body">
       <h2 class="text">Transforming <br>Student prfomance with <br>Accurate Reports</h2>
+      <div class="main-content-header">
+        <form method="post" action="result.php">
+          <table class="table">
+              <br>
+              <h2 class="search">REGISTER AND GET YOUR RESULT HERE!</h2>
+              <br><br>
+              <tr>
+                <th class="standered1">Name</th>
+                <td class="standered2"><input type="text" name="std" required class="box2"/></td>
+            </tr>
+            <tr>
+                <th class="name1">Register Number</th>
+                <td class="name2"><input type="text" name="rollno" required class="box1"/></td>
+            </tr>
+            <tr>
+                <th class="standered1">Grade</th>
+                <td class="standered2"><input type="text" name="std" required class="box2"/></td>
+            </tr> 
+            
+            <tr>
+            <td align="center" colspan="1"><input type="submit" name="submit" value="RESULT" class="submit"/></td>
+            <td  align="center"colspan="1"><input type="submit" name="register" value="REGISTER" class="submit"/></td>
+            </tr>
+          </table>
+       </form>
+      </div>
+        </div>
       <img class="image" src="front image1.png">
+      
     </div>
-</div>
+
 <div class="footer-section contact">
     <h2>Contact Us</h2>
     <p>Email:kopurajEdu@gmail.com</p>
@@ -37,6 +69,6 @@ Copy code
 <div class="footer-bottom">
     &copy; 2025 TK.com | Designed by Kopuraj T.
 </div>
-<script src="script.js"></script>
+<script src="frontscript.js"></script>
 </body>
 </html>
