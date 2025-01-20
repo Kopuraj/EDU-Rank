@@ -1,18 +1,48 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+body {
+  padding-inline: 10px;
+  font-family: Arial, sans-serif;
+  background-color: rgb(210, 203, 215);
+  background-image:url(loginimage.jpg);
 }
-body{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: url(loginimage.jpg);
-  background-size: cover;
-  background-position: center;
 
+header {
+  background-color: #333;
+  color: rgb(187, 104, 207);
+  padding: 10px 20px;
+  position: relative;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+}
+
+
+.logo {
+  margin: 0;
+  flex-grow: 1;
+}
+
+.button-group {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  background-color:orange;
+  color:white;
+  font-weight: bold;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color:rgb(199, 157, 80);
 }
 .wrapper{
   width: 420px;
