@@ -20,7 +20,7 @@ body{
   border: 2px solid rgba(255, 255, 255, .2);
   backdrop-filter: blur(9px);
   color: #fff;
-  border: radius 10px;px;
+  border: radius 10px;
   padding: 30px 40px;
 }
 .wrapper h1{
@@ -100,7 +100,7 @@ body{
 .wrapper .register-link{
   font-size: 14.5px;
   text-align: center;
-  margin: 20px o 15px;
+  margin: 20px 0 15px;
 
 }
 .register-link  a{

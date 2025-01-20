@@ -48,7 +48,7 @@ button:hover {
 
 .image{
         margin-top: 50px;
-       margin-left: 20px;
+       margin-left: 180px;
         display: block; 
         float: right; /* Align to the right */
         width:700px; 
@@ -159,5 +159,9 @@ button:hover {
 .sub-body{
 
     display:block;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 

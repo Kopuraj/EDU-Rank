@@ -9,7 +9,7 @@ document.getElementById('about').addEventListener('click', function() {
 });
 
 document.getElementById('contact').addEventListener('click', function() {
-    window.location.href = 'contactus/contactus/contactus.html'; 
+    window.location.href = 'contactus/contactus.html'; 
    
 });
 
