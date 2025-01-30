@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+    padding-inline: 10px;
+    font-family: Arial, sans-serif;
+    background-color: rgb(210, 203, 215);
+  
+  
+    
+  }
+  div{
+    width: 100%;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: rgb(187, 104, 207);
+    position:relative;
+    
+  }
+  
+  
+  .header {
+    display: flex;
+    align-items: center;
+    
+    
+  
+  }
+  
+  .logo {
+    margin: 0;
+    flex-grow: 1;
+  }
+  
+  .button-group {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+  }
+  
+  button {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 0;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: rgb(199, 157, 80);
+  }
+  
+  
+  
+  .image {
+    
+    margin-left: 20px;
+    display: block;
+    float: right; /* Align to the right */
+    width: 700px;
+    height: 700px;
+  }
+  
+  .text {
+    margin-top: 100px;
+    margin-left: 100px;
+    padding-right: 100px;
+    font-size: 1cm;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* Footer Styles */
+  .footer-bottom {
+    text-align: center;
+    margin-top:20px;
+    padding: 10px 0;
+    border-top: 1px solid #555;
+    background-color: rgb(158, 111, 203);
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #options button {
+    display: block;
+    margin: 10px 0;
+  }
+  .footer-section-contact{
+    margin-top: 150px;
+  }
+  
+  /* Form Table Styles */
+  .table {
+    margin-left: 0;
+  }
+  
+  .search {
+    margin-left: 0px;
+    margin-top: 40px;
+    color: blue;
+  }
+  
+  .name1 {
+    font-size: 2rem;
+    padding-right: 5px;
+  }
+  
+  .name2 {
+    height: 3rem;
+  }
+  
+  .box1,
+  .box2 {
+    height: 2rem;
+    width: 25rem;
+    background-color: rgb(209, 209, 209);
+  }
+  
+  .standered1 {
+    font-size: 2rem;
+    padding-right: 31px;
+  }
+  
+  .standered2 {
+    height: 5rem;
+  }
+  
+  .submit {
+    width: 85px;
+    padding: 10px;
+    margin-left: 50px;
+  }
+  
+  .submit:hover {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .sub-body {
+    display: block;
+  }

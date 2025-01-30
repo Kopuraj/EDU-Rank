@@ -1,0 +1,92 @@
+/* General Styles */
+.body3 {
+  padding-inline: 10px;
+  font-family: Arial, sans-serif;
+  background-color: rgb(210, 203, 215);
+  
+}
+div{
+  width: 100%;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: rgb(187, 104, 207);
+  height:60px;
+  align-items: center;
+  
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+
+}
+
+.logo {
+  margin: 0;
+  flex-grow: 1;
+}
+
+.button-group {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+}
+
+button {
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 0;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: rgb(199, 157, 80);
+}
+
+h1{
+margin-left: 430px;
+margin-top: 100px;
+margin-bottom: 20px;
+font-size:1cm;
+
+}
+h2{
+margin-bottom: 1rem;
+margin-left: 450px;
+margin-top: 10px;
+}
+.main-content-header{
+border-top: 2px solid white;
+
+}
+
+.main-content-header a{
+text-decoration: none;
+color:black;   
+text-shadow:  #ff0066 0px 0px 1px,   #ff0066 0px 0px 1px,   #ff0066 0px 0px 1px;
+}
+.main-content-header a:hover{
+text-decoration: none;
+text-decoration: none;
+color:yellow;   
+text-shadow:  #000 0px 0px 2px,   #000 0px 0px 2px,   #000 0px 0px 2px;
+
+}
+
+
+
+
+
+
