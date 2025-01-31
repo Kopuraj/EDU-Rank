@@ -1,23 +1,15 @@
 import React from "react";
 import '../styles/aboutus.css'
+import '../styles/header.css'
 
 const Aboutus = () =>{
   return(
-    <div>
-    <header>
-        <div className="header">
-          <h1 className="logo">EDU-Rank</h1>
-          <div>
-            <button>Home</button>
-            <button id="about">About</button>
-            <button id="contact">Contact</button>
-            <button id="adlogin">Admin Login</button>
-          </div>
-        </div>
-      </header>
-      <div className="main-content-header">
+    <div className="aboutus-page">
+    
+        
+      <div>
         <h1 className="search">About Us</h1>
-        <div className="div2">
+        <div>
           <h3>Student Result Management System</h3>
           <p>
             This Software Application unbelievably unravels and quickens the

@@ -3,6 +3,7 @@ import '../styles/adminsignup.css';
 
 const AdminSignup = () =>{
     return (
+       <div className="Adsignup-page">
         <div className="wrapper">
           <form action="#">
             <h1>Admin Signup</h1>
@@ -25,6 +26,7 @@ const AdminSignup = () =>{
               </p>
             </div>
           </form>
+        </div>
         </div>
       );
     }

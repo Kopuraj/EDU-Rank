@@ -1,22 +1,14 @@
 import React from "react";
-import '../styles/dashboard.css'
+import '../styles/dashboard.css';
+import '../styles/header.css';
 
 const Dashboard = () =>{
     return(
- <div className="body3">
-  <header>
-        <div className="header">
-          <h1 className="logo">EDU-Rank</h1>
-          <div className="button-group">
-            <button>Home</button>
-            <button>About</button>
-            <button>Contact</button>
-          </div>
-        </div>
-      </header>
+ <div className="dash-page">
+ 
         
         <div className="main-content-header">
-          <h1>Admin Dashboard</h1>
+          <h1> Dashboard</h1>
          <h2>Add Marks of Student</h2>
          <h2>Update Student Marks</h2>
          <h2>Delete the Marks of Student </h2>

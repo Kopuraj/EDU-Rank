@@ -5,7 +5,7 @@ const TeacherSignup = () =>{
 
 
 return (
-    <div className="body1"> 
+    <div className="Teachersignup-page"> 
     <div className="wrapper">
       <form action="#">
         <h1>Teacher Signup</h1>

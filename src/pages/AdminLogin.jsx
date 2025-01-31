@@ -3,10 +3,10 @@ import '../styles/AdminLogin.css';
 
 const AdminLogin = () => {
   return (
-    <div className='body2'>
+    <div className='Adlogin-page'>
     <div className="wrapper">
+      <h1>Login</h1>
       <form action="#">
-        <h1>Login</h1>
         <div className="input-box">
           <input type="text" placeholder="Username" required />
         </div>
@@ -14,7 +14,9 @@ const AdminLogin = () => {
         <div className="input-box">
           <input type="password" placeholder="Password" required />
         </div>
-
+        <div className="input-box">
+          <input type="password" placeholder="Insitution ID" required />
+        </div>
         <div className="remember-forgot">
           <label>
             <input type="checkbox" /> Remember Me

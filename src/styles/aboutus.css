@@ -1,0 +1,32 @@
+
+  .search{
+    text-align: center;
+    margin-top:40px;
+   }
+ 
+  .aboutus-page h1{
+    padding:10px;
+    
+  }
+  .aboutus-page h3{
+    font-size: 2.3rem;
+    padding:10px;
+    padding-left: 5rem;
+    color: rgb(253, 253, 108);
+    text-shadow:  #000 0px 0px 6px,   #000 0px 0px 6px,   #000 0px 0px 6px;
+  }
+  .aboutus-page h3:hover{
+    font-size: 2.5rem;
+    color: yellow;
+  }
+  .aboutus-page p{
+    font-size: 2rem;
+    padding: 20px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-shadow:  rgb(255, 255, 255) 0px 0px 1px,   rgb(255, 255, 255) 0px 0px 1px,   rgb(255, 255, 255) 0px 0px 1px;
+  }
+  
+   
+  
+  

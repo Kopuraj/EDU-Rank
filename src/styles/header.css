@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    padding-inline: 10px;
+    font-family: Arial, sans-serif;
+    background-color: rgb(212, 202, 219);
+    margin: 0; /* Ensure no default body margin */
+  }
+  div, header, main {
+    width: 100%;
+    box-sizing: border-box; /* Includes padding in width */
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  header {
+    position: fixed; /* Fix the header at the top */
+    top: 0;
+    width: 100%; /* Stretch to the full width */
+    height: 60px; /* Set a fixed height */
+    display: flex; /* Align items within */
+    align-items: center; /* Vertically center content */
+    justify-content: space-between; /* Space out elements inside */
+    background-color: #333; /* Background color */
+    color: rgb(198, 27, 228); /* Text color */
+    z-index: 1000; /* Ensure it's on top of other elements */
+    padding: 0 20px; /* Add some padding inside */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
+  }
+  
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Add to balance the layout */
+    
+    
+  }
+
+  
+  .logo {
+    margin: 0;
+    flex-grow: 1;
+
+  }
+  
+  .buton-group{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+  }
+  
+    button {
+      background-color: orange;
+      color: white;
+      font-weight: bold;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      border-radius: 0;
+      font-weight: bold;
+    }
+    
+    button:hover {
+      background-color: rgb(199, 157, 80);
+    }
+  

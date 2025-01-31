@@ -1,29 +1,23 @@
-import React from "react";
-import '../styles/Home.css';
+import React from "react"
+import '../styles/Home.css'
+ 
+
 
 const Home = () =>{
-  return (
-    <div>
-      <header>
-        <div className="header">
-          <h1 className="logo">EDU-Rank</h1>
-          <div className="buton-group">
-            <button>Home</button>
-            <button >About</button>
-            <button >Contact</button>
-            <button >Admin Login</button>
-          </div>
-        </div>
-        </header>
-        
-      
 
+  
+
+  return (
+    <div className="home-page">
+     
       <div className="body">
       <img className="image" src="/images/front image1.png" alt="Front Display" />
         <div className="sub-body">
-          <h2 className="text">
+          <div className="text">
+          <h2>
             Transforming <br /> Student Performance with <br /> Accurate Reports
           </h2>
+          </div>
           
           <div className="main-content-header">
             <form method="post" action="result.php">
